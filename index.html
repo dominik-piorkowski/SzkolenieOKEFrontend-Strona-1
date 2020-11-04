@@ -1,18 +1,47 @@
 <html>
- <head>
-    <title>Create your own Pet!</title>
-    <link rel="stylesheet" href="main.css">
 
- </head>
- <body>
-    <h1 class="text-center">Create your own loving pet!</h1>
-    <h3 class="text-center">Cats and dogs and others!</h3>
-    <p class="text-center">I like dogs! What pets do you like?</p>
+<head>
+   <title>Create your own Pet!</title>
+   <link rel="stylesheet" href="main.css">
 
-    <div class="container">
-        <img  src="https://www.sadanduseless.com/wp-content/uploads/2014/03/dd1.jpg" alt="derpy dog"/>
-        <input placeholder="His name is: "   />
-    </div>
+</head>
 
- </body>
+<body>
+   <h1 class="text-center">Create your own loving pet!</h1>
+   <h3 class="text-center">Cats and dogs and others!</h3>
+   <p class="text-center">I like dogs! What pets do you like?</p>
+
+   <div class="container">
+      <img src="https://www.sadanduseless.com/wp-content/uploads/2014/03/dd1.jpg" alt="derpy dog" />
+      <input placeholder="His name is: " />
+
+      <label for="trait">
+         And he is:
+         <select id="trait">
+            <option value="Funny">Funny</option>
+            <option value="Loud">Loud</option>
+            <option value="Active">Active</option>
+            <option value="Loving">Loving</option>
+            <option value="Derpy">Derpy</option>
+         </select>
+      </label>
+
+      <div>
+         <button class="wonderful-pet">Wonderful Pet!</button>
+         <button class="save">Save Pet!</button>
+      </div>
+
+      <script src="main.js"></script>
+      <script src="doggo.js"></script>
+      
+   </div>
+
+
+
+
+
+
+
+</body>
+
 </html>
