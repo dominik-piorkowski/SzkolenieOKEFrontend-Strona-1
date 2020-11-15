@@ -21,56 +21,14 @@ h3 {
 }
 
 img {
-    width: 300px;
+    width: 500px;
     margin-bottom: 15px;
 }
+
+
 
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* border-width: 10px;
-    border-color: yellow;
-    border-style: solid; */
-    border: 10px yellow solid;
-    margin: 32px;
-    padding: 30px 15px 60px 15px;
 }
-
-#trait {
-    background-color: thistle;
-    color: slateblue;
-    font-size: 16px;
-    margin: 16px 0px;
-}
-
-button {
-    background-color: blue;
-    border: 0;
-    padding: 8px 6px;
-    border: 4px orange solid;
-    margin: 16px;
-    color: white;
-    font-size: large;
-    cursor: pointer;
-}
-
-
-.save {
-    width: 150px;
-    transition: width 0.75s 
-}
-
-.save:hover {
-    width: 300px;
-    color: red;
-    cursor: pointer;
-}
-
-
-
-
-
-
-
-
